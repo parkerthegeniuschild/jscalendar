@@ -1,0 +1,77 @@
+html, body, textarea, input{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#calendar tr td{
+  border: 1px solid lightgray;
+  padding: 20px 5px;
+  width: 14.28%;
+  vertical-align: top;
+}
+
+#selector{
+  padding: 10px;
+  text-align: center;
+  background-color: lightsteelblue;
+}
+
+#selector select, #selector input[type=button]{
+  padding: 10px;
+  font-size: 1.2em;
+}
+
+#calendar{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td.blank{
+  background: #eee;
+}
+
+tr.day td{
+  background: lightcoral;
+  color: white;
+  font-weight: bold;
+}
+
+.evt{
+  margin-top: 5px;
+  padding: 5px;
+  background: lightgoldenrodyellow;
+  color:black;
+  font-size: 0.9em;
+  max-height: 5em;
+  overflow: hidden;
+}
+
+#event input[type=button], #event input[type=submit]{
+  padding: 10px;
+  font-size: 1.05em;
+}
+
+
+#event textarea{
+  display: block;
+  padding: 10px;
+  margin: 10px 0;
+  min-width: 320px;
+  resize: none;
+  text-align: center;
+}
+
+#event form{
+  margin-top: 10px;
+  padding: 10px;
+  background: lightgrey;
+}
+
+#event h1{
+  padding: 0;
+  margin: 0;
+}
+
+#evt-date{
+  margin: 10px 0;
+  font-weight: bold;
+}
