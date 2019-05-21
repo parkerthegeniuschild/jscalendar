@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calendar + Event App</title>
+    <link href="calendar.css" rel="stylesheet">
+    <script src="calendar.js"></script>
+  </head>
+  <body>
+
+    <div id="selector">
+      <select id="month"></select>
+      <select id="year"></select>
+      <input type="button" value="JUMP +/- 6 YEARS" onclick="calendar.list()"/>
+    </div>
+
+    <div id="container"></div>
+
+    <div id="event"></div>
+  </body>
+</html>
